@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vimeo</string>
+    <!-- notifications -->
+    <string name="no_iternet_connection">No connection. Please enable Internet connection</string>
+    <string name="vimeo_not_reachable">Connection exists, but Vimeo site is not reachable... Please fix the problem</string>
+    <string name="no_pages_more">Maximum number of pages is reached</string>
+    <string name="please_do_not_touch">Don\'t mess with me!</string>
+    <string name="unknown">Unknown</string>
+    <string name="unknown_item">Unknown item</string>
+    <string name="caching_video">Loading video...</string>
+    <string name="currently_not_supported">This action is not supported currently</string>
+    <string name="no_space_for_video_cache">There is no free space to make cache of this file. Required: {required}KB | Actual: {actual}KB </string>
+    <string name="failed_to_get_video_stream">Failed to get video stream</string>
+    <!-- main menu -->
+    <string name="refresh">Refresh</string>
+    <string name="preferences">Preferences</string>
+    <string name="switch_to_gallery">Switch view (to Gallery)</string>
+    <string name="switch_to_list">Switch view (to List)</string>    
+    <!-- lists -->
+    <string name="load_more">Load more...</string>
+    <string name="loading">Loading...</string>
+    <string name="no_items_in_list">No items</string>
+    <!-- context menus -->
+    <string name="context_menu">Context menu</string>
+    <string name="video_is">Video {title}</string>
+    <string name="view_video_info">View info</string>
+    <string name="view_author_info">View author info</string>
+    <string name="view_channel_info">View info</string>    
+    <string name="view_album_info">View info</string>
+    <string name="view_author_videos">View videos by author</string>
+    <string name="view_channel_videos">View videos in channel</string>
+    <string name="view_album_videos">View videos in album</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="addContact">Add contact</string>    
+    <!-- actions groups -->
+    <string name="operations">Operations</string>
+    <string name="information">Information</string>
+    <string name="statistics">Statistics</string>
+    <!-- welcome page -->
+    <string name="enter">Enter</string>
+    <string name="guest">Guest</string>
+    <!-- video page -->
+    <string name="num_of_plays">{num} plays</string>
+    <string name="num_of_likes">{num} likes</string>
+    <string name="num_of_comments">{num} comments</string>
+    <string name="uploaded_by">{name}</string>
+    <string name="uploaded_on">{time}</string>    
+    <string name="tags_are">{list}</string>
+    <string name="none_of_tags">[none]</string>
+    <string name="dimensions_are">{width}x{height}</string>
+    <string name="duration_is">{time}</string>
+    <string name="no_description_supplied">[No description supplied]</string>    
+    <!-- user page -->
+    <string name="num_of_videos">{num} videos</string>
+    <string name="num_of_albums">{num} albums</string>
+    <string name="num_of_channels">{num} channels</string>
+    <string name="num_of_contacts">{num} contacts</string>
+    <string name="num_of_appearances">Appears in {num} videos</string>
+    <string name="user_from_staff">Staff member</string>
+    <string name="user_is_plus_member">Plus member</string>
+    <string name="subscriptions">Subsriptions</string>    
+    <string name="location_is">{place}</string>
+    <string name="created_on">{time}</string>    
+    <string name="no_biography_supplied">[No biography supplied]</string>    
+    <!-- channel page -->    
+    <string name="num_of_subscribers">{num} subscribers</string>
+    <string name="created_by">{name}</string>
+    <!-- album page -->
+    <string name="updated_on">{time}</string>
+</resources>
