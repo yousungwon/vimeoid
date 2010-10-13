@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+	<include android:id="@+id/titleBar"
+	         layout="@layout/item_subject_titlebar" />
+    <include android:id="@+id/progressBar"
+             layout="@layout/progress_bar_line" />
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="@dimen/user_portrait_side"
+                  android:background="@color/item_action_bg">
+	    <ImageView android:id="@+id/userPortrait"
+	               android:layout_width="@dimen/user_portrait_side"
+	               android:layout_height="@dimen/user_portrait_side"
+	               android:background="@drawable/grey_border_line" />
+         <ScrollView android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1">
+             <TextView android:id="@+id/userBio"
+                       android:textSize="@dimen/item_text_font_size"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:paddingLeft="4dp"
+                       android:linksClickable="true" />
+         </ScrollView>
+    </LinearLayout>
+    <include android:id="@+id/actionsList"
+             layout="@layout/actions_list" />
+</LinearLayout>
