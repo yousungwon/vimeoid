@@ -80,7 +80,7 @@ public class VideoActivity extends SingleItemActivity<Video> {
         
         queryItem();
     }
-    
+
     @Override
     protected void prepare(Bundle extras) {
         
@@ -191,7 +191,7 @@ public class VideoActivity extends SingleItemActivity<Video> {
         
         super.onItemReceived(video);
     }
-    
+
     private LActionItem initLikeAction(final LActionItem actionItem) {
         
         actionItem.onClick = new OnClickListener() {

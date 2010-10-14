@@ -59,7 +59,7 @@ public abstract class SingleItemActivity_<ItemType> extends Activity {
         progressBar = findViewById(R.id.progressBar);
         progressBar.setVisibility(View.GONE);
         
-        imageLoader = new ImageLoader(this, R.drawable.item_loading_small, R.drawable.item_failed_small);
+        imageLoader = new ImageLoader(this, R.drawable.item_loading_small, R.drawable.item_failed);
         
         prepare(getIntent().getExtras());
     
@@ -69,7 +69,7 @@ public abstract class SingleItemActivity_<ItemType> extends Activity {
     protected void setLoadManually(boolean value) {
         loadManually = value;
     }
-    
+
     protected void prepare(Bundle extras) { };
     
     protected abstract void queryItem();
